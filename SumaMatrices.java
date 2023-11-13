@@ -3,14 +3,14 @@
 
 public class SumaMatrices {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         // Ingresar dimensiones de la primera matriz
         System.out.print("Ingrese el número de filas para la primera matriz (entre 2 y 5): ");
-        int filasMatriz1 = scanner.nextInt();
+        int filasMatriz1 = entrada.nextInt();
 
         System.out.print("Ingrese el número de columnas para la primera matriz (entre 2 y 5): ");
-        int columnasMatriz1 = scanner.nextInt();
+        int columnasMatriz1 = entrada.nextInt();
 
         // Ingresar la primera matriz
         System.out.println("Ingrese la primera matriz:");
@@ -18,10 +18,10 @@ public class SumaMatrices {
 
         // Ingresar dimensiones de la segunda matriz
         System.out.print("Ingrese el número de filas para la segunda matriz (entre 2 y 5): ");
-        int filasMatriz2 = scanner.nextInt();
+        int filasMatriz2 = entrada.nextInt();
 
         System.out.print("Ingrese el número de columnas para la segunda matriz (entre 2 y 5): ");
-        int columnasMatriz2 = scanner.nextInt();
+        int columnasMatriz2 = entrada.nextInt();
 
         // Ingresar la segunda matriz
         System.out.println("Ingrese la segunda matriz:");
